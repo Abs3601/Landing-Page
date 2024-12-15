@@ -21,3 +21,9 @@ Still a long way to go.
 I have absolutely no idea how to line up the quote with the author like it's lined up in the image, I tried a lot of things but I just cant get it to work.
 
 I suppose it's fine as is now and then I'll go back to it later maybe.
+
+## Fourth commit - Making call to action section
+
+I made it. It's not very well made, it is absolutely not responsive at all.
+
+I know for a fact you can create stuff like this and make it responsive without a bunch of breakpoints, however, I can't seem to be able to do that yet.

@@ -11,6 +11,7 @@
   --mainTextColor: #f9faf8;
   --secondaryTextColor: #e5e7eb;
   --backgroundColor: #1f2937;
+  --callToAction: #3882f6;
 }
 
 .section-one {
@@ -78,7 +79,7 @@
 }
 
 .btn {
-  background-color: #3882f6;
+  background-color: var(--callToAction);
   border: none;
   width: 120px;
   height: 35px;
@@ -151,4 +152,47 @@
   font-style: italic;
   color: #1f2937;
   font-weight: lighter;
+}
+
+/* Call To Action Section */
+
+.callToAction {
+  padding: 10em;
+}
+
+.banner {
+  background-color: var(--callToAction);
+  width: 800px;
+  padding: 3em;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.text {
+  margin: 0 auto;
+  color: var(--secondaryTextColor);
+}
+
+.its-time {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-container {
+  margin: 0 auto;
+}
+
+.btn2 {
+  width: 100px;
+  height: 30px;
+  border: solid 2px var(--secondaryTextColor);
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.btn2 a {
+  font-weight: bold;
+  color: var(--secondaryTextColor);
 }

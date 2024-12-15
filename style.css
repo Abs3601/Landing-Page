@@ -90,6 +90,8 @@
   font-weight: bold;
 }
 
+/* Random Info Section */
+
 .sectionTwoContainer {
   text-align: center;
   margin: 4em 0;
@@ -124,4 +126,29 @@
 .caption {
   display: block;
   text-align: center;
+}
+
+/* Quote Section */
+.sectionThreeContainer {
+  background-color: #e5e7eb;
+  padding: 10em;
+}
+
+.quote {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.thorQuote {
+  text-align: end;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
 }

@@ -2,7 +2,7 @@
 
 This is the landing page project for The Odin Project!
 
-# First commit - Making Hero
+## First commit - Making Hero
 
 Styling to me seems like it's very badly done, I've tried using flexbox but it isn't responsive, I know it says not to worry about that, but just lining up the two columns with the image and hero text felt like I've done it extremely poorly and hard-coded like.
 
@@ -15,3 +15,9 @@ This went better than the first one, however, I did find a very good stackoverfl
 I still feel like the code can be much cleaner and that it is quite messy. And I also feel like I don't fully understand exactly why I defined certain things, however, I am gaining a much better understanding of the display types now.
 
 Still a long way to go.
+
+## Third commit - Making the quote section
+
+I have absolutely no idea how to line up the quote with the author like it's lined up in the image, I tried a lot of things but I just cant get it to work.
+
+I suppose it's fine as is now and then I'll go back to it later maybe.

@@ -10,10 +10,11 @@
 :root {
   --mainTextColor: #f9faf8;
   --secondaryTextColor: #e5e7eb;
+  --backgroundColor: #1f2937;
 }
 
 .section-one {
-  background-color: #1f2937;
+  background-color: var(--backgroundColor);
 }
 
 /* Navbar */
@@ -87,4 +88,40 @@
 .btn a {
   color: var(--secondaryTextColor);
   font-weight: bold;
+}
+
+.sectionTwoContainer {
+  text-align: center;
+  margin: 4em 0;
+}
+
+.sectionTwoContainer h2 {
+  color: var(--backgroundColor);
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.sectionInfo {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+
+.img img {
+  border-radius: 1em;
+  border: dashed 4px #3b82f6;
+}
+
+.img {
+  width: 200px;
+}
+
+.caption {
+  display: block;
+  text-align: center;
 }

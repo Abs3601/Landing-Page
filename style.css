@@ -162,12 +162,13 @@
 
 .banner {
   background-color: var(--callToAction);
-  width: 800px;
+  width: 70%;
   padding: 3em;
   margin: 0 auto;
   display: flex;
   align-items: center;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 
 .text {
@@ -196,6 +197,8 @@
   font-weight: bold;
   color: var(--secondaryTextColor);
 }
+
+/* Footer */
 
 footer {
   background-color: var(--backgroundColor);

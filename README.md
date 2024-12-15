@@ -27,3 +27,9 @@ I suppose it's fine as is now and then I'll go back to it later maybe.
 I made it. It's not very well made, it is absolutely not responsive at all.
 
 I know for a fact you can create stuff like this and make it responsive without a bunch of breakpoints, however, I can't seem to be able to do that yet.
+
+## Fifth commit - Making Footer
+
+I probably should've made this first but I guess it doesn't matter since it's a pretty simple footer.
+
+Saved the easiest for last lol.

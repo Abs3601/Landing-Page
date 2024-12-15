@@ -196,3 +196,12 @@
   font-weight: bold;
   color: var(--secondaryTextColor);
 }
+
+footer {
+  background-color: var(--backgroundColor);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mainTextColor);
+}

@@ -7,9 +7,16 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.hero {
+:root {
+  --mainTextColor: #f9faf8;
+  --secondaryTextColor: #e5e7eb;
+}
+
+.section-one {
   background-color: #1f2937;
 }
+
+/* Navbar */
 
 .navbar {
   width: 70%;
@@ -32,12 +39,52 @@
 }
 
 .nav-item a {
-  color: #e5e7eb;
+  color: var(--secondaryTextColor);
   font-size: 18px;
 }
 
 .logo a {
-  color: #f9faf8;
+  color: var(--mainTextColor);
   font-weight: bold;
   font-size: 24px;
+}
+
+/* Hero */
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  width: 70%;
+  margin: 0 auto;
+  gap: 5em;
+  padding-bottom: 10em;
+}
+
+.hero {
+  color: var(--secondaryTextColor);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 48px;
+  color: var(--mainTextColor);
+}
+
+.btn {
+  background-color: #3882f6;
+  border: none;
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.btn a {
+  color: var(--secondaryTextColor);
+  font-weight: bold;
 }
